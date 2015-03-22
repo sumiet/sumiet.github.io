@@ -1,3 +1,39 @@
 body {
-	font-size: 12px;
+	background-color: #4D505B;
+	color:#FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-default{
+	background-color: #303239;
+	border:0;
+	color:#FFFFFF;
+	padding-left: 8%;
+}
+
+.navbar-default .navbar-brand {
+	color:#a5a7ac;
+	font-weight: bolder;
+	font-size: 1.5em;
+}
+
+.introduction {
+	color:#f4ac42;
+	padding: 10%;
+	font-size: 2em;
+}
+
+.introduction h2{
+	color:#FFFFFF;
+	font-weight: bold;
+}
+
+.introduction .intrests{
+	color:#16A79D;
+}
+
+.projects-stuff {
+	color:#FFFFFF;
+	padding: 10%;
+	font-size: 2em;
 }
