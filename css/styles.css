@@ -1,7 +1,8 @@
 body {
 	background-image: url('../images/background.jpg');
+	background-size: 100%;
 	color:#FFFFFF;
-	font-family: 'Bitter', serif;
+	font-family: 'Droid Sans', sans-serif;
 }
 
 .name-body {
