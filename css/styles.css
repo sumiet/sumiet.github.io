@@ -1,10 +1,91 @@
 body {
-	background-color: #3e4049;
+	background-image: url('../images/background.jpg');
 	color:#FFFFFF;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Bitter', serif;
 }
 
-.navbar-default{
+.name-body {
+	margin-top: 10%;
+}
+
+.my-name {
+	color: #FFFFFF;
+	font-size: 2.5em;
+	text-align: center;
+	font-weight: bold;
+}
+
+.thought-body{
+	color: #FFFFFF;
+	font-size: 1.5em;
+	text-align: center;
+	font-weight: bold;
+	margin: 3% 0 0 0; 
+}
+
+.thought-body hr {
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	width: 50%;
+}
+
+
+.footer {
+	text-align:center;
+	background-color: none;
+	width:100%;
+	padding:0;
+
+}
+
+
+.footer-name {
+	background-color: rgba(255,255,255,0.15);
+	border-right: 1px dotted;
+	line-height: 60px;
+}
+
+.footer-tag-line{
+	font-size: 1.5em;
+}
+
+.footer-links {
+	background-color: rgba(255,255,255,0.15);
+	border-right: 1px dotted;
+	line-height: 60px;
+}
+
+
+.footer-links a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 1.5em;
+	padding: 4%;
+}
+
+
+.footer-links a:hover {
+	color: #FFFFFF;
+}
+
+.footer-navigation {
+	background-color: rgba(255,255,255,0.15);
+	line-height: 60px;
+	font-size: 1.5em;
+}
+
+
+.footer-navigation a {
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 4%;
+}
+
+
+.footer-navigation a:hover {
+	color: #FFFFFF;
+}
+/* .navbar-default{
 	background-color: #303239;
 	border:0;
 	color:#FFFFFF;
@@ -94,4 +175,4 @@ body {
 
 .design-details-b a{
 	text-decoration: none;
-}
+} */
