@@ -41,17 +41,27 @@ body {
 
 
 .footer-name {
-	background-color: rgba(255,255,255,0.15);
+	background-color: rgba(0,0,0,0.55);
 	border-right: 1px dotted;
 	line-height: 60px;
-}
-
-.footer-tag-line{
 	font-size: 1.5em;
 }
 
+.footer-name a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 1.5em;
+	padding: 4%;
+}
+
+
+.footer-name a:hover {
+	color: #FFFFFF;
+}
+
+
 .footer-links {
-	background-color: rgba(255,255,255,0.15);
+	background-color: rgba(0,0,0,0.55);
 	border-right: 1px dotted;
 	line-height: 60px;
 }
@@ -70,7 +80,7 @@ body {
 }
 
 .footer-navigation {
-	background-color: rgba(255,255,255,0.15);
+	background-color: rgba(0,0,0,0.55);
 	line-height: 60px;
 	font-size: 1.5em;
 }
