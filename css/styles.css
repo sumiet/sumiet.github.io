@@ -43,7 +43,7 @@ body {
 .footer-name {
 	background-color: rgba(0,0,0,0.55);
 	border-right: 1px dotted;
-	line-height: 60px;
+	line-height: 65px;
 	font-size: 1.5em;
 }
 
@@ -62,7 +62,7 @@ body {
 .footer-links {
 	background-color: rgba(0,0,0,0.55);
 	border-right: 1px dotted;
-	line-height: 60px;
+	line-height: 63px;
 }
 
 
@@ -80,7 +80,7 @@ body {
 
 .footer-navigation {
 	background-color: rgba(0,0,0,0.55);
-	line-height: 60px;
+	line-height: 65px;
 	font-size: 1.5em;
 }
 
