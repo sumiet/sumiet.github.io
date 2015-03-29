@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://rostra.litsocbitm.in/</loc>
+  <changefreq>hourly</changefreq>
+</url>
+<url>
+  <loc>http://rostra.litsocbitm.in/spell-bee.pdf</loc>
+  <lastmod>2014-03-23T10:39:22+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+</url>
+<url>
+  <loc>http://rostra.litsocbitm.in/remote.html</loc>
+  <changefreq>hourly</changefreq>
+</url>
+<url>
+  <loc>http://rostra.litsocbitm.in/brochure.pdf</loc>
+  <lastmod>2014-03-11T21:02:00+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+</url>
+<url>
+  <loc>http://rostra.litsocbitm.in/www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Frostra.litsocbitm&amp;width=300&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true&amp;appId=542797825805577</loc>
+  <changefreq>hourly</changefreq>
+</url>
+<url>
+  <loc>http://rostra.litsocbitm.in/www.facebook.com/plugins/spell-bee.pdf</loc>
+  <changefreq>hourly</changefreq>
+</url>
+<url>
+  <loc>http://rostra.litsocbitm.in/www.facebook.com/plugins/remote.html</loc>
+  <changefreq>hourly</changefreq>
+</url>
+<url>
+  <loc>http://rostra.litsocbitm.in/www.facebook.com/brochure.pdf</loc>
+  <changefreq>hourly</changefreq>
+</url>
+</urlset>
