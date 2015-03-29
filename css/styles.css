@@ -96,3 +96,37 @@ body {
 .footer-navigation a:hover {
 	color: #FFFFFF;
 }
+
+
+.boundary{
+	border: 1px dotted #FFFFFF;
+	width:80%;
+	margin:auto;
+	display: block;
+	margin-top: 5%;
+}
+
+.detail-header {
+	margin: auto;
+	width: 50%;
+	display: block;
+	margin-top: 3%;
+	text-align: center;
+
+}
+
+.project {
+	width: 80%;
+	margin: auto;
+	display: block;
+	margin-top: 2%;
+	background-color: rgba(0,0,0,0.55);
+}
+
+.project-image {
+	border-right: 1px dotted #FFFFFF;
+}
+
+.project-detail{
+
+}
