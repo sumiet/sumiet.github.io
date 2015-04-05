@@ -1,0 +1,88 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/******************** HEADER **********************************/
+.brand-image {
+	width:50%;
+	border-radius:200px;
+	float:left;
+	border: 3px solid rgba(255,255,255,0.25);
+}
+.navbar-default {
+	background-color: #DB3844;
+	color: #FFFFFF;
+	height: 100px;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+.navigation {
+	padding-top:25px;
+	font-size: 1.2em;
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+
+}
+
+/******************** Footer **********************************/
+.footer {
+	line-height: 50px;
+	border-top:1px dotted #DB3844;
+	text-align: center;
+	color: #000000;
+	width:90%;
+	margin:auto;
+	display: block;
+}
+
+.footer a {
+	color: #DB3844;
+}
+/******************** standard **********************************/
+.spacer-5 {
+	min-height:5px;
+}
+
+
+.spacer-15 {
+	min-height:15px;
+}
+
+.spacer-25 {
+	min-height:25px;
+}
+
+.pull-center {
+	margin:auto;
+	display:block;
+}
+
+
+/****************************specific ****************************/
+.events-head {
+	font-size: 1.5em;
+	background-color: #AFAFAF;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.events-body {
+	max-height: 250px;
+	background-color: #EEEEEE;
+	color: #0F0F0F;
+	overflow: auto;
+}
+
+.events-date {
+	color:#8F8F8F;
+	font-size: 0.8em;
+}
