@@ -1,6 +1,6 @@
 body {
 	background-image: url('../images/background.jpg');
-	background-size: 100%;
+	/* background-size: 100%; */
 
 	color:#FFFFFF;
 	font-family: 'Droid Sans', sans-serif;
@@ -120,13 +120,23 @@ body {
 	margin: auto;
 	display: block;
 	margin-top: 2%;
+	padding:4%;
 	background-color: rgba(0,0,0,0.55);
+	text-align: justify;
 }
 
 .project-image {
-	border-right: 1px dotted #FFFFFF;
+
+	
 }
 
 .project-detail{
+	border-left: 1px dotted #FFFFFF;
+	padding-left:3%;
+}
 
+.project-detail a, .project-detail a:visited, .project-detail a:hover {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
 }

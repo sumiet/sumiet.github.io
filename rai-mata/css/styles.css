@@ -1,29 +1,19 @@
 body {
 	font-family: 'Open Sans', sans-serif;
+	background-color: #FCFAE1;
 }
 
 
 
 /******************** HEADER **********************************/
-.brand-image {
-	width:50%;
-	border-radius:200px;
-	float:left;
-	border: 3px solid rgba(255,255,255,0.25);
-}
-.navbar-default {
-	background-color: #DB3844;
-	color: #FFFFFF;
-	height: 100px;
+.rai-mata-logo {
+	width:16%;
+	border-radius:250px;
+	margin: 0 5% 0 15%;
+	float: left;
+	border: 3px solid #F6E497; /*rgba(255,255,255,0.25);*/
 }
 
-.navbar {
-	margin-bottom: 0px;
-}
-.navigation {
-	padding-top:25px;
-	font-size: 1.2em;
-}
 .navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
 	color: #FFFFFF;
 	text-decoration: none;
