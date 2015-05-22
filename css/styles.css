@@ -104,13 +104,14 @@ body {
 	margin:auto;
 	display: block;
 	margin-top: 5%;
+	margin-bottom: 10%;
+	padding: 3% 0;
 }
 
 .detail-header {
 	margin: auto;
 	width: 50%;
 	display: block;
-	margin-top: 3%;
 	text-align: center;
 
 }
