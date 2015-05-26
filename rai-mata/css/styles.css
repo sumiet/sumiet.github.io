@@ -8,7 +8,7 @@ body {
 /******************** HEADER **********************************/
 
 .navbar-default {
-	background-color: #F7F6F1;
+	background-color: #F3F2EC;
 	padding: 2% 5%;
 	font-size: 1.2em;
 }
@@ -32,6 +32,7 @@ body {
 	line-height: 50px;
 	color: #626466;
 	background-color: #2c2c2a;
+	bottom:0;
 }
 
 .footer a {
@@ -60,7 +61,7 @@ body {
 /****************************specific ****************************/
 .events-box{
 	background-color:#ffd752;
-	margin: 25px;
+	margin: 50px 0 80px 25px;
 }
 
 .event h3{
@@ -70,12 +71,14 @@ body {
 }
 
 .details-box {
-	margin: 25px;
+	margin: 50px 0 80px 25px;
+	font-size: 1.5em;
+	text-align: justify;	
 }
 
 .donate-box{
 	background-color:#ffd752;
-	margin: 50px 0;
+	margin: 50px 0 100px 0;
 	padding:50px;
 }
 
@@ -93,6 +96,11 @@ body {
 	font-size: 1em;
 	padding:10px;
 }
+
+.homepage-mantra{
+	color: #F50000;
+}
+
 .page-title {
 	background-color: #3d3c3a;
 	color: #ffd752;
@@ -106,8 +114,34 @@ body {
 
 .page-content {
 	font-size: 1.4em;
-	margin:50px 0;
+	margin:50px 0 80px 0;
 	color: #717676;
 	text-align: justify;
+
+}
+
+.map-frame{
+	border: 20px #FFFFFF SOLID;
+	border-radius: 5px;
+	margin: 25px 0 10px 0;
+}
+
+.visit-us{
+	margin: 0 0 80px 0;
+}
+
+.visit-us hr {
+	border-color: #2C2C2A;
+}
+
+.video-tag{
+	margin: 0 0 40px 0;
+}
+
+.download{
+	border:0;
+	color:#FFFFFF;
+	background-color: #D74444;
+	padding: 10px;
 
 }

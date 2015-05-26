@@ -5,66 +5,15 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="import" type="text/html" href="imports.html" >
 	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
 	<link href='http://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
 	<title>Jai Rai Mata</title>
 </head>
 <body>
-	<div  class="navbar9 navbar-default navbar-static-top" role="navigation">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#"> 
-					<img class="header-brand-img logo img-responsive" style="max-width:300px;max-height:300px;" src="./images/logo.png" alt="">
-				</a>
-			</div>
-			<div class="navbar-collapse collapse">
-				<ul class="nav navbar-nav navbar-right"> 
-					<li><a href="index.html">Home</a></li>
-					<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About <span class="caret"></span></a>
-					<ul class="dropdown-menu" role="menu">
-						<li><a href="jeebni.html">Rai Mata Jeebni</a></li>
-						<li><a href="raghunathpur-history.html">Raghunathpur Temple History</a></li>
-						<li><a href="#">Main Festivals</a></li>
-						<li><a href="#">Puja Timings</a></li>
-					</ul>
-					</li>
 
-					<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Worship <span class="caret"></span></a>
-					<ul class="dropdown-menu" role="menu">
-						<li><a href="#">Chalisa</a></li>
-						<li><a href="#">Aarti</a></li>
-						<li><a href="#">Mangal Path</a></li>
-						<li><a href="#">Maha Mantra</a></li>
-					</ul>
-					</li>
-
-					<li><a href="index.html">Panchang</a></li>
-
-					<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Gallery <span class="caret"></span></a>
-					<ul class="dropdown-menu" role="menu">
-						<li><a href="#">Audio</a></li>
-						<li><a href="#">Video</a></li>
-						<li><a href="#">Pictures</a></li>
-					</ul>
-					</li>
-
-					<li><a href="index.html">Contact Us</a></li>
-
-
-					<li><a href="index.html">Visit Us</a></li>
-
-				</ul>
-			</div>
-		</div>
-	</div>
+	<div id="header"></div>
+	
 	<div class="page-title">
     <div class="container">
         <div class="row">
@@ -85,30 +34,12 @@
 					</p>
     			</div>
 			</div>
-			<div class="col-md-4 donate-box">
-				<h1>SERVE  </h1>
-				<h1>RAI MATA BY</h1>
-				<h1><strong><button class="donate-button">Donating</button></strong></h1>
-				<h1>FOR HER TEMPLE'S</h1>
-				<h1>DEVELOPMENT</h1>
-			</div>
+			<div id="donate"></div>
 		</div>
 	</div>
     
 
-	<div class="container-fluid">
-		<div class="footer navbar-fixed-bottom">
-			<div class="row">
-				<div class="col-xs-5 col-xs-offset-1">
-					 <span class="footer-copyright"> &#169; Copyright Rai Mata Comittee, Raghunathpur</span>
-				</div>
-				<div class="col-xs-5">
-					 <span class="footer-poweredby pull-right">Designed and developed by <a href="http://sumiet.github.io" target="_blank"> Sumit Agarwal</a></span>
-				</div>
-				<div class="col-xs-1"></div>
-			</div>
-		</div>
-	</div>
+	<div id="footer"></div>
 	</body>
 	
 <script type="text/javascript" src="js/jquery-1.11.2.js"></script>
@@ -116,4 +47,14 @@
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/owl.carousel.js"></script>
 <script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
+
+<script type="text/javascript">
+	var content = document.querySelector('link[rel="import"]').import;
+	var header = content.querySelector('.header');
+	var donate = content.querySelector('.donation-import');
+	var footer = content.querySelector('.footer');
+	document.getElementById("header").appendChild(header.cloneNode(true));
+	document.getElementById("donate").appendChild(donate.cloneNode(true));
+	document.getElementById("footer").appendChild(footer.cloneNode(true));
+</script>
 </html>
