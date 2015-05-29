@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/style1.css" />
+	<link rel="stylesheet" type="text/css" href="css/elastislide.css" />
+	<link rel="import" type="text/html" href="imports.html" >
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+	<link href='http://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
+	<title>Jai Rai Mata</title>
+	<noscript>
+			<style>
+				.es-carousel ul{
+					display:block;
+				}
+			</style>
+		</noscript>
+		<script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">	
+			<div class="rg-image-wrapper">
+				{{if itemsCount > 1}}
+					<div class="rg-image-nav">
+						<a href="#" class="rg-image-nav-prev">Previous Image</a>
+						<a href="#" class="rg-image-nav-next">Next Image</a>
+					</div>
+				{{/if}}
+				<div class="rg-image"></div>
+				<div class="rg-loading"></div>
+				<div class="rg-caption-wrapper">
+					<div class="rg-caption" style="display:none;">
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</script>
+</head>
+<body>
+	<div id="header"></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+    		<center><strong><h1>Gallery</h1></strong></center>
+            </div>
+        </div>
+        </div>
+    </div>
+
+	<div class="container">
+		<div class="row">
+			<div class="content">
+				<div id="rg-gallery" class="rg-gallery">
+					<div class="rg-thumbs">
+						<!-- Elastislide Carousel Thumbnail Viewer -->
+						<div class="es-carousel-wrapper">
+							<div class="es-nav">
+								<span class="es-nav-prev">Previous</span>
+								<span class="es-nav-next">Next</span>
+							</div>
+							<div class="es-carousel">
+								<ul>
+									<li><a href="#"><img src="images/thumbs/1.jpg" data-large="images/1.jpg" alt="image01" data-description="Rai Mata" /></a></li>
+									<li><a href="#"><img src="images/thumbs/2.jpg" data-large="images/2.jpg" alt="image02" data-description="Rai Mata" /></a></li>
+									<li><a href="#"><img src="images/thumbs/3.jpg" data-large="images/3.jpg" alt="image03" data-description="Rai Mata" /></a></li>
+									<li><a href="#"><img src="images/thumbs/4.jpg" data-large="images/4.jpg" alt="image04" data-description="Rai Mata" /></a></li>
+									<li><a href="#"><img src="images/thumbs/5.jpg" data-large="images/5.jpg" alt="image05" data-description="Rai Mata" /></a></li>
+									<li><a href="#"><img src="images/thumbs/6.jpg" data-large="images/6.jpg" alt="image06" data-description="Rai Mata" /></a></li>
+									<li><a href="#"><img src="images/thumbs/7.jpg" data-large="images/7.jpg" alt="image07" data-description="Rai Mata" /></a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- End Elastislide Carousel Thumbnail Viewer -->
+					</div><!-- rg-thumbs -->
+				</div><!-- rg-gallery -->
+			</div><!-- content -->
+
+			<div class="spacer-25"></div>
+		</div>
+	</div>
+    
+
+	<div id="footer"></div>
+
+	</body>
+	
+<script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+<script type="text/javascript" src="js/jquery-ui.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.js"></script>
+<script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
+<script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.elastislide.js"></script>
+<script type="text/javascript" src="js/gallery.js"></script>
+<script type="text/javascript">
+	var content = document.querySelector('link[rel="import"]').import;
+	var header = content.querySelector('.header');
+	var footer = content.querySelector('.footer');
+	document.getElementById("header").appendChild(header.cloneNode(true));
+	document.getElementById("footer").appendChild(footer.cloneNode(true));
+</script>
+</html>
