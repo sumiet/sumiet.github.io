@@ -1,0 +1,21 @@
+body {
+	/*background-color: #000000;*/
+	
+
+}
+
+a, a:hover, a:focus, a:visited{
+	text-decoration: none;
+}
+
+.commands,.commands:focus,.commands:hover,.commands:active {
+	
+	background-color: #FFFFFF;
+	border: 0px;
+	outline-style:none;
+	
+
+}
+
+
+   
