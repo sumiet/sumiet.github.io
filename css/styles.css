@@ -1,13 +1,15 @@
-@import url(https://fonts.googleapis.com/css?family=Quicksand);
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
 body {
-	background-image: url('../images/background_skills.jpg');
-	/* background-size: 100%; */
-
 	color:#FFFFFF;
 	font-family: 'Droid Sans', sans-serif;
 	text-decoration: none;
+}
+
+/*over wriritng bootstarp */ 
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: rgba(254,148,54,0.9);
 }
 
 /**************************************Header********************************/
@@ -15,13 +17,23 @@ body {
 .header {
 	border-radius: 0px !important;
 	background-color: #000000;
+	margin-bottom: -20px !important;
+	border:0 !important;
 }
 
 
 /*************************************Body*********************************/
 
 
+#cover {
+	background-image: url('../images/background_cover.jpg');
+	background-size: 100%;
+}
 
+#others {
+	background-image: url('../images/background_others.jpg');
+	background-size: 100%;
+}
 
 
 
