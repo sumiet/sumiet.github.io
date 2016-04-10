@@ -41,13 +41,12 @@ body {
 	color: #000000;
 	font-size: 1.5em;
 	text-align: center;
-	font-weight: bold; 
 	margin-top: 5%;
 }
 
 .thought-body hr {
 	color: #000000;
-	border: 2px solid #000000;
+	border: 1px solid #000000;
 }
 
 .boundary{
