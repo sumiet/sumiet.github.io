@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
 body {
-	background-image: url('../images/background.jpg');
+	background-image: url('../images/background_skills.jpg');
 	/* background-size: 100%; */
 
 	color:#FFFFFF;
@@ -30,7 +30,7 @@ body {
 }
 
 .my-name {
-	color: #FFFFFF;
+	color: #000000;
 	font-size: 8em;
 	text-align: center;
 	font-weight: bold;
@@ -38,7 +38,7 @@ body {
 }
 
 .thought-body{
-	color: #FFFFFF;
+	color: #000000;
 	font-size: 1.5em;
 	text-align: center;
 	font-weight: bold; 
@@ -46,8 +46,8 @@ body {
 }
 
 .thought-body hr {
-	color: #FFFFFF;
-	border: 2px solid #FFFFFF;
+	color: #000000;
+	border: 2px solid #000000;
 }
 
 .boundary{
