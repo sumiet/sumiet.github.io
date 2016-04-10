@@ -69,7 +69,7 @@ var commands = {
 
 	help: [ 
 		function() {
-			output.innerHTML += "Commands supported are:<br /><ul><li><i>cat &lt;file_name&gt;</i> :- To read the available files.</li><li><i>cd &lt;folder_name&gt;</i> :- Move to the specified folder path.</li><li><i>cd &lt;..&gt;</i> :- Move to previous folder.</li></ul><br />";
+			output.innerHTML += "Commands supported are:<br /><table>	<tr>		<td>cat &lt;file_name&gt;</td>		<td>To veiw the available files</td>	</tr>	<tr>		<td>cd &lt;folder_name&gt;</td>		<td>Move to the specified folder path</td>	</tr><tr>		<td>cd &lt;..&gt;</td>	<td>Move to previous folder</td></tr><tr><td>help</td><td>List of available commands</td>	</tr>	<tr>		<td>ls</td>		<td>List of available files</td>	</tr>	</table><br />";
 		}
 	],
 

@@ -4,15 +4,31 @@ body {
 
 	color:#FFFFFF;
 	font-family: 'Droid Sans', sans-serif;
+	text-decoration: none;
 }
 
+/**************************************Header********************************/
+
+.header {
+	border-radius: 0px !important;
+	background-color: #000000;
+}
+
+
+/*************************************Body*********************************/
+
+
+
+
+
+
 .name-body {
-	margin-top: 10%;
+	margin-top: 6%;
 }
 
 .my-name {
 	color: #FFFFFF;
-	font-size: 2.5em;
+	font-size: 8em;
 	text-align: center;
 	font-weight: bold;
 }
@@ -21,82 +37,14 @@ body {
 	color: #FFFFFF;
 	font-size: 1.5em;
 	text-align: center;
-	font-weight: bold;
-	margin: 3% 0 0 0; 
+	font-weight: bold; 
+	margin-top: 5%;
 }
 
 .thought-body hr {
 	color: #FFFFFF;
 	border: 2px solid #FFFFFF;
-	width: 50%;
 }
-
-
-.footer {
-	text-align:center;
-	background-color: none;
-	width:100%;
-	padding:0;
-
-}
-
-
-.footer-name {
-	background-color: rgba(0,0,0,0.55);
-	border-right: 1px dotted;
-	line-height: 65px;
-	font-size: 1.5em;
-}
-
-.footer-name a {
-	color: #FFFFFF;
-	text-decoration: none;
-	padding: 4%;
-}
-
-
-.footer-name a:hover {
-	color: #FFFFFF;
-}
-
-
-.footer-links {
-	background-color: rgba(0,0,0,0.55);
-	border-right: 1px dotted;
-	line-height: 63px;
-}
-
-
-.footer-links a {
-	color: #FFFFFF;
-	text-decoration: none;
-	font-size: 1.5em;
-	padding: 4%;
-}
-
-
-.footer-links a:hover {
-	color: #FFFFFF;
-}
-
-.footer-navigation {
-	background-color: rgba(0,0,0,0.55);
-	line-height: 65px;
-	font-size: 1.5em;
-}
-
-
-.footer-navigation a {
-	color: #FFFFFF;
-	text-decoration: none;
-	padding: 4%;
-}
-
-
-.footer-navigation a:hover {
-	color: #FFFFFF;
-}
-
 
 .boundary{
 	border: 1px dotted #FFFFFF;
@@ -141,3 +89,5 @@ body {
 	font-weight: bold;
 	text-decoration: none;
 }
+
+
