@@ -12,12 +12,15 @@ body {
     background-color: rgba(254,148,54,0.9);
 }
 
+.nav>li>a {
+	padding: 15px 80px !important;
+}
 /**************************************Header********************************/
 
 .header {
 	border-radius: 0px !important;
 	background-color: #000000;
-	margin-bottom: -20px !important;
+	margin-bottom: -5px !important;
 	border:0 !important;
 }
 
@@ -112,3 +115,11 @@ body {
 }
 
 
+.content-about {
+	background-color: rgba(0,0,0,0.8);
+	min-height: 800px;
+}
+
+.menu-item {
+	text-align: center;
+}
